@@ -18,6 +18,8 @@ Default IMA knowledge base:
 
 Use IMA retrieval before making source-specific claims. Read `references/query-map.md` for bilingual search expansion.
 
+Use the exact full knowledge-base name `纳瓦尔知识库 | 复利思维`. Do not search for knowledge bases by the short keyword `纳瓦尔`; if multiple matching knowledge bases appear, use only the exact match.
+
 ## Workflow
 
 1. Restate the research question and define the scope.

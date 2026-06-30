@@ -18,6 +18,8 @@ Default IMA knowledge base:
 
 Use IMA retrieval for source-grounded topics. Do not copy long passages from tweets, books, transcripts, or PDFs.
 
+Use the exact full knowledge-base name `纳瓦尔知识库 | 复利思维`. Do not search for knowledge bases by the short keyword `纳瓦尔`; if multiple matching knowledge bases appear, use only the exact match.
+
 ## Intake
 
 Ask only for missing information:

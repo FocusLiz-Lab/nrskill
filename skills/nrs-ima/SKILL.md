@@ -16,7 +16,9 @@ Default IMA knowledge base:
 纳瓦尔知识库 | 复利思维
 ```
 
-Use the default knowledge base unless the user explicitly names another IMA knowledge base.
+Use the exact full name `纳瓦尔知识库 | 复利思维` unless the user explicitly names another IMA knowledge base.
+
+Do not search for knowledge bases with the short keyword `纳瓦尔`. Do not list, compare, merge, or retrieve from other knowledge bases that merely contain `纳瓦尔` in the name. If the IMA tool returns multiple matches, choose only the exact match `纳瓦尔知识库 | 复利思维`.
 
 ## Required Dependency
 

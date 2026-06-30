@@ -18,6 +18,8 @@ Default IMA knowledge base:
 
 Use `ima-skill/SKILL.md` and `ima-skill/knowledge-base/SKILL.md` for retrieval. Search IMA before recommending specific materials. Do not expose internal IMA IDs.
 
+Use the exact full knowledge-base name `纳瓦尔知识库 | 复利思维`. Do not search for knowledge bases by the short keyword `纳瓦尔`; if multiple matching knowledge bases appear, use only the exact match.
+
 Read `references/archive-map.md` if you need a high-level map of the local source categories.
 
 ## Intake

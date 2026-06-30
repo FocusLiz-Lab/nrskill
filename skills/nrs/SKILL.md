@@ -18,6 +18,8 @@ All workflow skills default to:
 
 Users do not need to mention this knowledge-base name. If they explicitly name another IMA knowledge base, use that name instead.
 
+Use the exact full name `纳瓦尔知识库 | 复利思维` for retrieval. Do not search for knowledge bases with the short keyword `纳瓦尔`, and do not enumerate or merge other matching knowledge bases. If the IMA tool returns multiple matches, select only the exact match `纳瓦尔知识库 | 复利思维` unless the user explicitly requests another knowledge base.
+
 ## Required Dependency
 
 All source-grounded workflows use `ima-skill` for retrieval:

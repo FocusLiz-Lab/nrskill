@@ -14,6 +14,8 @@ This is the SkillHub root entry. For the full toolbox, use the skills under `ski
 纳瓦尔知识库 | 复利思维
 ```
 
+Use this exact full knowledge-base name for retrieval. Do not search for knowledge bases with the short keyword `纳瓦尔`, and do not enumerate or merge other matching knowledge bases. If the tool returns multiple matches, select only the exact match `纳瓦尔知识库 | 复利思维` unless the user explicitly asks to use another knowledge base.
+
 ## Routes
 
 | User intent | Route to |
