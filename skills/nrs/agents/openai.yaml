@@ -1,0 +1,6 @@
+interface:
+  display_name: "NRS Naval Router"
+  short_description: "纳瓦尔知识库主入口与 workflow 路由"
+  default_prompt: "Use $nrs to choose the right Naval Ravikant workflow for my question."
+policy:
+  allow_implicit_invocation: true
