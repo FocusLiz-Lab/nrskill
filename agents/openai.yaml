@@ -1,0 +1,6 @@
+interface:
+  display_name: "NRS Naval"
+  short_description: "纳瓦尔 IMA 知识库 Skill 工具箱"
+  default_prompt: "Use $nrs to route my Naval Ravikant question to the right workflow."
+policy:
+  allow_implicit_invocation: true
