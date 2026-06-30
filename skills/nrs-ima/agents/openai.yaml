@@ -1,0 +1,6 @@
+interface:
+  display_name: "NRS IMA"
+  short_description: "检索和核对纳瓦尔 IMA 资料"
+  default_prompt: "Use $nrs-ima to search the Naval Ravikant IMA knowledge base for this topic."
+policy:
+  allow_implicit_invocation: true
