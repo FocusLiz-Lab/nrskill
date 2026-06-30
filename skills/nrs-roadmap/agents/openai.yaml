@@ -1,0 +1,6 @@
+interface:
+  display_name: "NRS Roadmap"
+  short_description: "把纳瓦尔原则转成个人行动计划"
+  default_prompt: "Use $nrs-roadmap to apply Naval Ravikant principles to my next 30 days."
+policy:
+  allow_implicit_invocation: true
