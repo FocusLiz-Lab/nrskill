@@ -1,0 +1,6 @@
+interface:
+  display_name: "NRS Learning Map"
+  short_description: "纳瓦尔资料学习路径与阅读顺序"
+  default_prompt: "Use $nrs-learning-map to build a study path through Naval Ravikant materials."
+policy:
+  allow_implicit_invocation: true
