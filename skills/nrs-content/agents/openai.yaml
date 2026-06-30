@@ -1,0 +1,6 @@
+interface:
+  display_name: "NRS Content"
+  short_description: "基于纳瓦尔思想生成内容选题和稿件"
+  default_prompt: "Use $nrs-content to turn Naval Ravikant ideas into content angles."
+policy:
+  allow_implicit_invocation: true
