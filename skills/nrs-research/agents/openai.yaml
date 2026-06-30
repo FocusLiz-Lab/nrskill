@@ -1,0 +1,6 @@
+interface:
+  display_name: "NRS Research"
+  short_description: "纳瓦尔主题研究和证据化总结"
+  default_prompt: "Use $nrs-research to synthesize Naval Ravikant sources on this question."
+policy:
+  allow_implicit_invocation: true
