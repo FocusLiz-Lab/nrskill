@@ -1,35 +1,35 @@
 ---
 name: nrs
 description: |
-  Naval Ravikant / 纳瓦尔 skill toolbox main router with default IMA knowledge-base grounding. Use when the user asks about Naval Ravikant, 纳瓦尔, wealth without luck, specific knowledge, leverage, judgment, happiness, reading, learning, startup/angel investing philosophy, decision-making, life design, content ideas, research summaries, or how to study the Naval knowledge base. By default, use the IMA knowledge base named "纳瓦尔知识库 | 复利思维". Triggers include $nrs, /nrs, Naval, Naval Ravikant, 纳瓦尔, 如何不靠运气致富, 财富, 杠杆, 判断力, 幸福, 人生真相, 学习地图, 研究分析, and IMA检索.
+  Naval Ravikant / 纳瓦尔财富与判断力 Skill 工具箱主入口。用于不靠运气致富、特定知识、杠杆、判断力、幸福、阅读、学习、创业/天使投资哲学、决策、人生设计、内容选题、研究总结和纳瓦尔知识库学习路径。默认使用 IMA 知识库「纳瓦尔知识库 | 复利思维」，并可在 IMA 不可用时读取本地原子库。触发词包括 $nrs、/nrs、Naval、Naval Ravikant、纳瓦尔、如何不靠运气致富、财富、杠杆、判断力、幸福、人生真相、学习地图、研究分析和 IMA检索。
 ---
 
-# nrs
+# nrs 纳瓦尔财富与判断力工具箱
 
-Act as the main router for the Naval Ravikant skill toolbox. Identify the user's intent and route to the most relevant workflow. If enough context exists, execute the routed workflow in the same answer.
+这是 Naval Ravikant / 纳瓦尔财富与判断力工具箱的主入口。先判断用户意图，再路由到最相关的 workflow；如果上下文足够，直接在同一回答中完成对应工作流。
 
-## Default IMA Knowledge Base
+## 默认 IMA 知识库
 
-All workflow skills default to:
+所有 workflow skills 默认读取：
 
 ```text
 纳瓦尔知识库 | 复利思维
 ```
 
-Users do not need to mention this knowledge-base name. If they explicitly name another IMA knowledge base, use that name instead.
+用户不需要每次输入这个知识库名称。如果用户明确指定其他 IMA 知识库，则优先使用用户指定的知识库。
 
-Use the exact full name `纳瓦尔知识库 | 复利思维` for retrieval. Do not search for knowledge bases with the short keyword `纳瓦尔`, and do not enumerate or merge other matching knowledge bases. If the IMA tool returns multiple matches, select only the exact match `纳瓦尔知识库 | 复利思维` unless the user explicitly requests another knowledge base.
+检索时必须使用完整名称 `纳瓦尔知识库 | 复利思维`。不要只用 `纳瓦尔` 做知识库模糊搜索，也不要合并其他相似知识库。若 IMA 返回多个结果，除非用户明确指定其他知识库，否则只选择完整名称一致的这个知识库。
 
-## Required Dependency
+## 必要依赖
 
-All source-grounded workflows use `ima-skill` for retrieval:
+所有需要资料依据的 workflow 都使用 `ima-skill` 做检索：
 
 - `ima-skill/SKILL.md`
 - `ima-skill/knowledge-base/SKILL.md`
 
-Do not invent IMA APIs. Do not expose internal `knowledge_base_id`, `media_id`, or `folder_id` to the user.
+不要臆造 IMA API。不要向用户暴露内部 `knowledge_base_id`、`media_id` 或 `folder_id`。
 
-If `ima-skill` is not installed or credentials are missing, tell the user to install/configure IMA first:
+如果没有安装 `ima-skill` 或凭证缺失，先提示用户安装并配置 IMA：
 
 ```text
 请安装 ima 技能
@@ -37,7 +37,7 @@ If `ima-skill` is not installed or credentials are missing, tell the user to ins
 API Key 获取：https://ima.qq.com/agent-interface
 ```
 
-## Route Map
+## 路由表
 
 | User intent | Route to | Use when |
 |---|---|---|
