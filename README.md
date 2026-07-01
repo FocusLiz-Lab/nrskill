@@ -69,6 +69,29 @@ $nrs-roadmap 我想用纳瓦尔的方法规划未来 30 天学习和赚钱路径
 $nrs-ima 帮我检索纳瓦尔关于 happiness 和 desire 的资料。
 ```
 
+## SkillHub 轻量包与全量原子库
+
+SkillHub 单个上传包限制小于 10MB，因此 SkillHub 压缩包是轻量包，不直接内置完整 `atoms.jsonl`。安装后如果需要本地离线兜底检索，调用：
+
+```text
+$nrs-download-atoms
+```
+
+或在 nrskill 安装目录中运行：
+
+```powershell
+python tools/download_full_atoms.py
+```
+
+它会自动从 GitHub 下载并安装完整原子库到：
+
+```text
+知识库/原子库/atoms.jsonl
+知识库/原子库/atoms_*.jsonl
+```
+
+如果需要手动下载，也可以在 GitHub Release 中下载 `nrs-local.zip`，它包含完整本地原子库。
+
 ## 资料边界
 
 本仓库只发布 workflow、资料地图和抽象后的知识原子，不发布原始 PDF、推文全文、视频逐字稿、课程材料或未授权资料。具体引用、原文核对和出处确认必须回到 IMA 或用户提供的合法来源。
