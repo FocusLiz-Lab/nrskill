@@ -4,6 +4,17 @@ description: |
   Naval Ravikant / 纳瓦尔 learning-map workflow with default IMA knowledge-base retrieval. Use when the user asks where to start, what to read first, how to study Naval's wealth, happiness, judgment, leverage, reading, startups, or philosophy materials, or how to turn the "纳瓦尔知识库 | 复利思维" IMA knowledge base into a study plan, reading sequence, lesson map, or output-driven learning path.
 ---
 
+## 手动更新路由
+
+用户明确要求“更新 skill / 检查更新 / 同步最新原子库”时，先执行此路由。使用当前 SKILL.md 所在目录解析脚本绝对路径：
+
+```text
+python "{skillDir}/tools/update_skill.py"
+```
+
+只检查时加 `--check`。脚本从 GitHub main 的固定提交同步本仓库整套 skill 和原子资料，覆盖前备份，写入失败回滚；不需要 Git 或 GitHub 登录。根据脚本实际结果报告当前提交、更新状态与失败原因。普通业务问题不自动更新。更新后重新读取相关 SKILL.md。
+
+
 # nrs-learning-map
 
 Turn the Naval knowledge base into a focused learning path tied to the user's goal.
