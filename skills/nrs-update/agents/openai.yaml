@@ -1,0 +1,4 @@
+interface:
+  display_name: "Naval Ravikant 更新"
+  short_description: "Update suite skills and atom libraries safely"
+  default_prompt: "Use $nrs-update to update the suite and its atom libraries from GitHub."
