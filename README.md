@@ -36,12 +36,6 @@ GitHub 仓库：`FocusLiz-Lab/nrskill`
 API Key 获取：https://ima.qq.com/agent-interface
 ```
 
-## 加入 / 访问知识库
-
-扫码获取知识库：
-
-![纳瓦尔知识库二维码](docs/knowledge-base-qrcode.png)
-
 ## 工具箱
 
 | Skill | 用途 |
